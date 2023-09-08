@@ -1,0 +1,238 @@
+/* Video styles */
+.video-container {
+  position: relative;
+}
+
+video {
+  width: 100%;
+}
+.bar{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+} 
+img{
+  width: 300px;
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'playfair Display',serif;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.video-text h1 {
+ margin-bottom: 10px;
+ font-size: 60px;
+}
+
+
+.video-text p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button1 {
+  /* background-color: #68c4ef; */
+  /* background-color: #080C33; */
+  /* background-color: black; */
+  background-color: #3452FF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-top:20px;
+  font-weight: 600;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.button1:hover {
+  background-color: #569fe9;
+}
+
+
+.sectiont{
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title {
+  /* color: green; */
+  color: #080C33;
+  font-size: 40px;
+  margin: 30px;
+  text-align: center;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+}
+
+
+.tour_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tour__card {
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border: 5px solid;
+  border-color: rgb(181, 207, 214);
+}
+
+.tour__card:hover {
+  transform: scale(1.1);
+}
+
+.tour__card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour__data {
+  padding: 10px;
+  background-color: rgb(181, 207, 214);
+}
+
+.tour__data-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.tour__data-subtitle {
+  color: #888;
+  font-size: 14px;
+}
+
+
+.testimonials-section {
+  text-align: center;
+  margin: 35px;
+}
+
+.testimonial {
+  font-family: 'Montserrat' sans-serif;
+  display: inline-block;
+  width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid;
+  border-color: green;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.recognitions {
+  margin: 20px 0;
+  font-family: 'Montserrat' sans-serif;
+  border: 2px solid;
+  border-color: green;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.recognitions .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.recognitions__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recognition__card {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.recognition__card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.recognition__data-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.recognition__data-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.image-carousel {
+  position: relative;
+}
+.carousel img {
+  height: 650px;
+}
+.carousel-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.carousel-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.carousel-content button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #FF6666;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-content button:hover {
+  background-color: #FF3333;
+}

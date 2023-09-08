@@ -1,0 +1,254 @@
+/* Footer container */
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Montserrat' sans-serif;
+}
+
+/* Footer container for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+}
+
+/* Footer columns */
+.footer .col {
+  width: 25%;
+  padding: 0 20px;
+}
+
+/* Footer headings */
+.footer h5 {
+  color: #FF6666;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Footer links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer form */
+.footer-email-signup {
+  margin-top: 20px;
+}
+
+.footer-email-signup input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.footer-email-signup button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #FF6666;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.footer-email-signup button[type="submit"] {
+  background-color: #FF3333;
+  width: auto;
+}
+
+/* Social media links */
+.footer-social-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-links li {
+  margin-right: 10px;
+}
+
+.footer-social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #FF6666;
+  transition: background-color 0.3s ease;
+}
+
+.footer-social-links a:hover {
+  background-color: #FF3333;
+}
+
+
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Additional styles for specific elements */
+.centered {
+  color: #fff;
+  font-style: italic;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.social-media-community {
+  color: #FF6666;
+  font-size: 18px;
+  font-family: 'Montserrat' sans-serif;
+  margin-top: 20px;
+}
+
+.social-media-community strong {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Custom styles */
+.footer-links li a {
+  font-size: 16px;
+}
+
+.footer-email-signup input[type="email"] {
+  border-bottom: 4pxsolid #FF6666;
+}
+
+.footer-email-signup button[type="submit"] {
+  background-color: #FF6666;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.footer-email-signup button[type="submit"]:hover {
+  background-color: #FF3333;
+}
+
+.footer-social-links a {
+  font-size: 20px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+
+.footer h5 {
+  font-size: 16px;
+  color: #FF6666;
+}
+
+.social-media-community {
+  font-size: 16px;
+  color: #FF6666;
+  margin-top: 20px;
+}
+
+/* Custom layout */
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .col {
+  flex: 0 0 24%;
+  max-width: 24%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.footer h5 {
+  text-align: left;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+ 
+}
+
+.social-icon {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px; /* Adjust the icon size as needed */
+  height: 45px; /* Adjust the icon size as needed */
+  background-color: #ccc; /* Set the initial background color */
+  transition: background-color 0.3s ease, width 0.3s ease; /* Add transition effects */
+}
+
+.social-icon:hover {
+  width: 60px; /* Adjust the increased width on hover */
+}
+
+.whatsapp {
+  background-color: green;
+  color: white;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.instagram {
+  background-color: #f12b07;
+  color: white;
+}
+
+.facebook {
+  background-color: #4267B2;
+  color: white;
+}
+
+.youtube {
+  background-color: #f40f0f;
+  color: white;
+}
+
+.linkedin {
+  background-color: #2facef;
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+}
+

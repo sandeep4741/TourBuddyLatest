@@ -1,0 +1,81 @@
+.NavbarItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: transparent;
+  height: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.imag{
+  width: 80px;
+}
+
+
+.navbar-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-text {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 45px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative;
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.logo-text .tour {
+  color: #2085f1;
+}
+
+.logo-text .buddy {
+  color: #fff;
+}
+
+.nav-menu{
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 5px;
+  list-style: none;
+  align-items: center;
+  margin-top: 10px;
+}
+.nav-links{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+.nav-links i{
+  padding-right: 10px;
+}
+.nav-links:hover{
+  background-color: #a4a6dd;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.searchbar input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+}

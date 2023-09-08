@@ -1,0 +1,48 @@
+MIZORAM(17):-
+
+1.Aizawl:-
+
+famousFood: {
+      name: 'Misa Mash Poora',
+      description: 'Misa Mash Poora is the best way to treat yourself when in Aizawl. This dish is cooked with shrimps, onions, coriander, peppercorns and lime juice. Its bold flavors will make every foodie’s mouth water. Misa Mach Poora is a popular dish from the northeast cuisine which is very easy and simple to prepare with just a few ingredients available at the home. Grilled shrimps make for an awesomely delicious and luscious dinner; irresistibly marinated with subtle flavors, ready to be eaten with a bowl of hot rice. If you are in love with seafood, this dish is made for you.',
+      image: '/images/fooditem/aizawl.jpeg',
+
+    },
+
+2.Ventwagfalls:-
+
+famousFood: {
+      name: 'Bamboo Shoot Fry',
+      description: 'If you’re a vegetarian, you should try out the Bamboo Shoot Fry in Mizoram. Bamboo is first fried and tossed up with herbs. In some cases, shitake mushrooms and other vegetables are added to the mixture. It is a wonderful dish that is also light on the stomach.',
+      image: '/images/fooditem/ventwangfals.jpg',
+
+    },
+
+3.LUNGLEI:-
+
+famousFood: {
+      name: 'Bai',
+      description: 'This is one of the most popular dishes of Mizoram. The key factor of this dish is that it is prepared using lots of locally available herbs and spices. The main ingredients include pork, bamboo shoots and steamed vegetables. Wherever you go within Mizoram, Bai is one dish that you will find very easily! Some even consume this as a soup, before starting off with their main course.',
+      image: '/images/fooditem/lunglei.webp',
+
+    },
+
+4.REIEK:-
+
+famousFood: {
+      name: 'Mizo Thalis',
+      description: 'Some local eateries might offer Mizo thalis, which are complete meals featuring a variety of dishes served on a single platter. This can be a great way to sample a range of Mizo flavors.When visiting Reiek or any other part of Mizoram, you have the opportunity to immerse yourself in the local culinary culture and experience the unique flavors of Mizo cuisine',
+      image: '/images/fooditem/reiek.jpg',
+
+    },
+
+5.CHAMPHALI:-
+
+famousFood: {
+      name: ' Koat Pitha',
+      description: 'Koat Pitha is essentially a fried dish. It is made using rice flour and bananas. They also add fish to it, as it is considered to be one of their staples. It looks crispy from the outside but is soft and warm from the inside. It makes for an ideal snack with tea. It generally tastes a little sweet because of the presence of bananas.',
+      image: '/images/fooditem/champhali.webp',
+
+    },
+
+ 

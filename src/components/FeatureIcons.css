@@ -1,0 +1,55 @@
+/* FeatureIcons.css */
+.feature-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+  .feature-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    transition: transform 0.3s ease-in-out;
+    /* border: 2px solid;
+    border-color: green;
+    padding: 20px;
+    border-radius: 20px; */
+  }
+  
+  .feature-icon:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .phone-icon {
+    color: #ff5f5f;
+  }
+  
+  .location-icon {
+    color: #ffbd4a;
+  }
+  
+  .plane-icon {
+    color: #4ecdc4;
+  }
+  
+  .work-icon {
+    color: #84c5e3;
+  }
+  
+  .camera-icon {
+    color: #a389d4;
+  }
+  
+  .text {
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+  }

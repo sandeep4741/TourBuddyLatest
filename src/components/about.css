@@ -1,0 +1,93 @@
+.image {
+  width: 1800px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+
+ .tourismContainer{
+   font-size: 30px;
+  font-family: 'French Script MT ';
+  border-top: 100px;
+  text-align: justify;
+  
+}
+
+.tourismContainer h1 {
+  color: blue; /* Adjust the color as per your preference */
+  font-family: Arial, sans-serif;
+  /* font-weight: bold; */
+  font-size: 30px;
+  border-bottom: 50px;
+}
+
+.tourismContainer p {
+  color:black; /* Adjust the color as per your preference */
+  font-size: 15px;
+  font-family: Lucida Sans Unicode;
+margin-bottom: 20px;
+}
+
+
+
+.indianTourismContainer {
+   padding: 100px; /* Padding around the content */
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 50px;
+  
+}
+
+.indianTourismContainer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.leftDiv {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  margin-right: 20px; /* Adjust the margin as needed */
+  text-align: justify;
+  flex-wrap: wrap;
+}
+.leftDiv h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight:inherit;
+  color: blue;
+}
+
+.leftDiv p {
+  font-family: Lucida Sans Unicode;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  color: black;
+  text-align: justify;
+}
+
+.rightDiv {
+
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.rightDiv img {
+  width: 500px; /* Adjust the image size as needed */
+  height: 600px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 500px;
+}
+
+.image-container {
+  margin: 40px 90px 40px 90px;
+  border-radius: 50px;
+}
+
+.tourismContainer {
+  padding: 10px; /* Add padding around the container */
+}
